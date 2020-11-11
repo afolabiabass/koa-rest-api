@@ -13,6 +13,7 @@
   "dependencies": {
     "koa": "^2.1.0",
     "koa-bodyparser": "^4.2.0",
+    "koa-ctx-paginate": "0.0.6",
     "koa-router": "^7.0.0",
     "mysql": "^2.13.0",
     "sequelize": "^3.30.4"
