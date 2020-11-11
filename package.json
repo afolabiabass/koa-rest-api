@@ -4,21 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node index.js"
   },
   "engines": {
     "node": "7.7.2"
   },
   "dependencies": {
+    "jsonwebtoken": "^8.5.1",
     "koa": "^2.1.0",
     "koa-bodyparser": "^4.2.0",
-    "koa-ctx-paginate": "0.0.6",
     "koa-jwt": "^4.0.0",
     "koa-router": "^7.0.0",
     "mysql": "^2.13.0",
     "sequelize": "^3.30.4"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1"
+  }
 }
