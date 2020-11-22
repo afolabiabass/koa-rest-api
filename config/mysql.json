@@ -1,6 +1,6 @@
 {
-  "DATABASE": "trialday",
+  "DATABASE": "test",
   "USER": "root",
-  "PASSWORD": "",
+  "PASSWORD": "root",
   "HOST": "127.0.0.1"
 }
